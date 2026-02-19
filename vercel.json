@@ -1,10 +1,1 @@
-{
-  "buildCommand": "cd elite-simulapro && npm run build",
-  "outputDirectory": "elite-simulapro/dist",
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
-}
+{"buildCommand": "cd elite-simulapro && npm install && npm run build", "outputDirectory": "elite-simulapro/dist", "rewrites": [{"source": "/(.*)", "destination": "/index.html"}]}
